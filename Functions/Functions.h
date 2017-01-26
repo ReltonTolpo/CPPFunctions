@@ -3,6 +3,8 @@
 #include <algorithm>
 #include <random>
 
+//Convert boolean to a string
+std::string boolToString(bool value);
 //Creates freelines
 void freeline(int num);
 //Input function
