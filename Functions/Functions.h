@@ -10,7 +10,8 @@ void freeline(int num);
 //Input function
 std::string input(std::string info);
 //Print functions
-void print(std::string info);
+void print(std::string info)
+void printInt(int info);
 void println(std::string info);
 //Make strings uppercase and lowercase
 std::string upper(std::string upperWord);

@@ -4,6 +4,7 @@
 
 -----Int to string-----
 STRING = to_string(INT)
+STRING = std::to_string(INT)
 
 -----Char to string-----
 STRING.push_back(CHAR)
@@ -31,6 +32,10 @@ std::string input(std::string info) {
 }
 //Print functions
 void print(std::string info) {
+	std::cout << info;
+	return;
+}
+void printInt(int info) {
 	std::cout << info;
 	return;
 }
